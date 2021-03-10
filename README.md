@@ -2,8 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![](Diagrams/Network-Diagram.png)
-
+<img width="546" alt="Network Diagram" src="https://user-images.githubusercontent.com/80186549/110576847-9394d380-81b5-11eb-954d-fff08c74d921.PNG">
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the config file may be used to install only certain pieces of it, such as Filebeat.
 
   - Ansible
@@ -70,7 +69,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![](Images/elk.png)
+<img width="565" alt="elk" src="https://user-images.githubusercontent.com/80186549/110576882-a9a29400-81b5-11eb-9d03-5ce73099a41e.PNG">
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -84,7 +83,7 @@ We have installed the following Beats on these machines:
 - Metricbeat
 
 These Beats allow us to collect the following information from each machine:
-![](Images/https://github.com/Chhunly-TAING/Project-1-/blob/main/Images/Logs-data.PNG)
+<img width="1277" alt="Logs-data" src="https://user-images.githubusercontent.com/80186549/110576922-bf17be00-81b5-11eb-9eff-193cdc183632.PNG">
 - The picture above is an example of logs data that has been generated from Elasticsearch using Filebeat.
 
 ### Using the Playbook
