@@ -84,7 +84,7 @@ We have installed the following Beats on these machines:
 - Metricbeat
 
 These Beats allow us to collect the following information from each machine:
-![](Images/Logs-data.png)
+![](Images/https://github.com/Chhunly-TAING/Project-1-/blob/main/Images/Logs-data.PNG)
 - The picture above is an example of logs data that has been generated from Elasticsearch using Filebeat.
 
 ### Using the Playbook
